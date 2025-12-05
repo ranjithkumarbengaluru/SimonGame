@@ -1,0 +1,65 @@
+.mainbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 25px 30px 25px 30px;
+  border: solid black 2px;
+}
+
+.btn {
+  width: 190px;
+  height: 190px;
+  border: solid black 5px;
+  border-radius: 25%;
+}
+
+.containor {
+  display: flex;
+  column-gap: 36px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.red {
+  background-color: #bf1a1a;
+}
+
+.green {
+  background-color: #016b61;
+}
+
+.blue {
+  background-color: #301ca0;
+}
+
+.yellow {
+  background-color: #ffc50f;
+}
+
+.head {
+  font-size: 2em;
+  font-weight: bold;
+  background: linear-gradient(45deg, #016b61, #ffc50f); /* gradient colors */
+  -webkit-background-clip: text; /* clip background to text */
+  background-clip: text; /* standard property for compatibility */
+  -webkit-text-fill-color: transparent; /* make text transparent so gradient shows */
+}
+
+.flash {
+  background-color: aliceblue;
+}
+
+.press {
+  background-color: green;
+}
+
+.gover {
+  color: rgba(141, 2, 2, 0.947);
+}
+
+.max {
+  color: goldenrod;
+}
